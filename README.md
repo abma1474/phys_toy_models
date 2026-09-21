@@ -5,7 +5,7 @@ A collection of computational toy physics models.
 
 ## 📋 Included Notebooks
 
-### 1. `01_pisr_heat_diffusion.ipynb` — Physics-Informed Symbolic Regression (PISR)
+### 1. `pisr_heat_diffusion.ipynb` — Physics-Informed Symbolic Regression (PISR)
 * **Overview:** Demonstrates extracting analytical equations from noisy observational data while enforcing known physical laws.
 * **Physics Domain:** 1D Heat Diffusion Equation ($\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}$).
 * **Key Libraries:** `PySR`, `SymPy`, `NumPy`.
@@ -18,7 +18,7 @@ A collection of computational toy physics models.
 
 ---
 
-### 2. `02_leapfrog_nbody_simulation.ipynb` — N-Body Orbital Mechanics (Leapfrog Integrator)
+### 2. `leapfrog_nbody_simulation.ipynb` — N-Body Orbital Mechanics (Leapfrog Integrator)
 * **Overview:** Implements a second-order Leapfrog integration scheme to simulate gravitational trajectories in N-body dynamical systems.
 * **Physics Domain:** Gravitational N-Body Dynamics (Sun-Earth System).
 * **Key Libraries:** `NumPy`, `Matplotlib`, `Pandas`, `forces` (custom module).
