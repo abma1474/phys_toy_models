@@ -19,13 +19,14 @@ A collection of computational toy physics models.
 ---
 
 ### 2. `leapfrog_nbody_simulation.ipynb` — N-Body Orbital Mechanics (Leapfrog Integrator)
-* **Overview:** Implements a second-order Leapfrog integration scheme to simulate gravitational trajectories in N-body dynamical systems.
+* **Overview:** Implements a second-order Leapfrog integration scheme to simulate gravitational trajectories in N-body dynamical systems. (ASTR 2600 Final Project)
 * **Physics Domain:** Gravitational N-Body Dynamics (Sun-Earth System).
 * **Key Libraries:** `NumPy`, `Matplotlib`, `Pandas`, `forces` (custom module).
 * **Methodology:**
   1. Implements `leapfrogStep()` to update positions, accelerations, and velocities over a single time step.
   2. Runs multi-step numerical integration via `calculateTrajectories()`.
-  3. Models a 1000-day Sun-Earth orbital trajectory and plots spatial coordinates over time.
+  3. Models multi-body gravitational interactions and plots spatial trajectories over time.
+  4. Utilizes Monte Carlo sampling to generate initial positions, masses, and velocity distributions for black hole systems.
 
 ---
 
